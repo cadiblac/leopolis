@@ -344,6 +344,9 @@ aside[role="complementary"] {
 	&:nth-child(odd) {
 		margin-right: 40px;
 	}
+	@media screen and (min-width: 1930px) {
+		margin-right: 40px;
+	}
 	&:hover {
 		background-image: url(/img/strzalkaPhover.svg)
 	}
@@ -374,7 +377,6 @@ aside[role="complementary"] {
 	color: #989898;
 	z-index: 3;
 }
-
 
 @media screen and (max-width: 1440px) {
 	.lewa {
