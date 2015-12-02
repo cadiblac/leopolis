@@ -1,0 +1,106 @@
+.modal-open {
+	overflow: hidden;
+}
+.modal {
+	display: none;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1050;
+	-webkit-overflow-scrolling: touch;
+	outline: 0;
+}
+.modal.fade .modal-dialog {
+	opacity: 0;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+.modal.in .modal-dialog {
+	opacity: 1;
+}
+.modal-open .modal {
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+.modal-dialog {
+	position: relative;
+	width: auto;
+	margin: 10px;
+}
+.modal-content {
+	@extend .clearfix;
+	position: relative;
+	background-color: white;
+	background-clip: padding-box;
+	outline: 0;
+	padding: 40px 30px 30px 30px;
+}
+.modal-backdrop {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1040;
+	background-color: $green;
+}
+.modal-backdrop.fade {
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+.modal-backdrop.in {
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+.modal-header {
+	float: left;
+	width: 280px;
+}
+.kontaktowe {
+	font-size: 0.8823529em; //15px
+	margin: 0.333em 0;
+}
+.modal-header img.avatar {
+	width: 280px;
+	height: 280px;
+	margin-top: -40px;
+}
+button.close {
+	width: 20px;
+	height: 20px;
+	background: transparent url(/img/krzyzyk.svg) 50% 50% no-repeat;
+	border: none;
+	float: right;
+	margin: -25px -15px 0 0;
+}
+.modal-title {
+}
+.modal-body {
+	position: relative;
+	margin-left: 335px;
+}
+.modal-scrollbar-measure {
+	position: absolute;
+	top: -9999px;
+	width: 50px;
+	height: 50px;
+	overflow: auto;
+}
+@media (min-width: 900px) {
+	.modal-dialog {
+		width: 880px;
+		margin: 50px auto;
+	}
+}
+@media screen and (max-width: 720px) {
+	.modal-header {
+		float: none;
+		width: 100%;
+	}
+	.modal-body {
+		margin-left: 0;
+	}
+}

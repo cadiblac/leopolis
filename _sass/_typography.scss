@@ -1,0 +1,27 @@
+.wf-loading {
+  visibility: hidden;
+}
+body {
+	font-family: "fira-sans", sans-serif;
+	font-size: 1.0625em; //17px
+	line-height: 1.4117647; //24px
+}
+h1, h2 {
+	font-family: "ff-meta-serif-web-pro", serif;
+}
+h1 {
+	font-size: 2.6470588em; //45px
+	line-height: 1.22222; //55px
+	font-weight: 700;
+	margin-top: 0;
+}
+h2 {
+	font-size: 1.7647058em; //30px
+	line-height: 1.233333; //37px
+	font-weight: 700;
+	margin-bottom: 0.3333em; //10px
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}

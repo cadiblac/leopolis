@@ -1,0 +1,15 @@
+<div class="lewa">
+	<header role="banner">
+		{% if page.url == "/" %}<h1 class="site-title">{% else %}<h2 class="site-title">{% endif %}<a href="/" title="Powrót na stronę główną"><img src="/img/leopolis-logo.svg" alt="LEOPOLIS Research &amp; Design" /></a>{% if page.url == "/" %}</h1>{% else %}</h2>{% endif %}
+		<nav role="navigation">
+			<ul>
+			{% for menuItem in site.data.menu %}
+				<li{% if page.permalink == menuItem.permalink %} class="active"{% endif %}><a href="{{ menuItem.permalink }}">{{ menuItem.title }}</a></li>
+			{% endfor %}
+			</ul>
+		</nav>
+	</header>
+	<footer class="site-footer">
+		<p>&copy; Leopolis Research &amp; Design Sp.&nbsp;z&nbsp;o.o.</p>
+	</footer>
+</div>

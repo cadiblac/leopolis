@@ -1,0 +1,24 @@
+---
+layout: base
+class: o-nas
+---
+<main role="main">
+	{{ content }}
+</main>
+<aside role="complementary">
+	<div>
+		<ul class="nav-tabs" role="tablist">
+			<li role="presentation" class="active"><a href="#jakosc" aria-controls="jakosc" role="tab" data-toggle="tab"><div class="pasek"><span style="width: 100%" class="animowany"></span></div><img src="/img/ikony/jakosc.svg" alt="Jakość" height="75" width="75" /></a></li>
+			<li role="presentation"><a href="#odwaga" aria-controls="odwaga" role="tab" data-toggle="tab"><img src="/img/ikony/odwaga.svg" alt="Odwaga" height="75" width="75" /></a></li>
+			<li role="presentation"><a href="#bezpieczenstwo" aria-controls="bezpieczenstwo" role="tab" data-toggle="tab"><img src="/img/ikony/bezpieczenstwo.svg" alt="Bezpieczeństwo" height="75" width="75" /></a></li>
+		</ul>
+		<div class="tab-content">
+		{% for zakladka in site.data.o-nas-zakladki %}
+			<div role="tabpanel" class="tab-pane{% if forloop.first == true %} active{% endif %}" id="{{ zakladka.id }}">
+				<h2>{{ zakladka.naglowek }}</h2>
+				<p>{{ zakladka.tresc }}</p>
+			</div>
+		{% endfor %}
+		</div>
+	</div>
+</aside>

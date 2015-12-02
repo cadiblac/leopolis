@@ -1,1 +1,1 @@
-# leopolis
+# Leopolis Research & Design

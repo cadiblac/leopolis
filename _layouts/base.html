@@ -1,0 +1,18 @@
+---
+layout: typo
+---
+<!DOCTYPE html>
+<html lang="pl" class="no-js">
+
+	{% include head.html %}
+
+	<body{% if page.class %} class="{{page.class}}"{% endif %}>
+
+		{% include header.html %}
+		<div class="wrap">
+			{{ content }}
+		</div>
+		{% include footer.html %}
+
+	</body>
+</html>

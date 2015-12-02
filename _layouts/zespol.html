@@ -1,0 +1,32 @@
+---
+layout: base
+---
+<main role="main" class="zespol">
+	{% for osoba in site.data.zespol %}
+	<div class="osoba" data-toggle="modal" data-target="#{{ osoba.id }}">
+		<img class="avatar" srcset="/img/ludzie/{{ osoba.id }}420.jpg 1.5x, /img/ludzie/{{ osoba.id }}560.jpg 2x" src="/img/ludzie/{{ osoba.id }}.jpg" alt="{{ osoba.nazwisko }}" height="175" width="175" />
+		<h2 class="nazwisko">{{ osoba.nazwisko }}</h2>
+		<p class="bio">{{ osoba.bio }}</p>
+	</div>
+	{% endfor %}
+	<!-- Modals -->
+	{% for osoba in site.data.zespol %}
+	<div class="modal fade" id="{{ osoba.id }}" tabindex="-1" role="dialog" aria-labelledby="{{ osoba.id }}-label">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+				<div class="modal-header">
+					<img class="avatar" srcset="/img/ludzie/{{ osoba.id }}420.jpg 1.5x, /img/ludzie/{{ osoba.id }}560.jpg 2x" src="/img/ludzie/{{ osoba.id }}.jpg" alt="osoba" height="280" width="280" />
+					<h2 class="modal-title" id="{{ osoba.id }}-label">{{ osoba.nazwisko }}</h2>
+					<p class="kontaktowe">afiliacja: {{ osoba.afiliacja }}</p>
+					<p class="kontaktowe">email: <script src="/js/{{ osoba.id }}.js"></script><noscript>Aby zobaczyć adres, skorzystaj z przeglądarki obsługującej JavaSrcipt.</noscript></p>
+					<p class="kontaktowe">telefon: {{ osoba.tel }}</p>
+				</div>
+				<div class="modal-body">
+					<p>{{ osoba.biogram }}</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	{% endfor %}
+</main>
