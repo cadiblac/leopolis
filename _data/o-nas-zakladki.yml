@@ -4,7 +4,7 @@
 - id: "odwaga"
   naglowek: "Odwaga"
   tresc: "Odwaga to kluczowa cecha badacza: bez niej nawet najbardziej wyszukana metodologia jest bezużyteczna.
-
+<tr>
 Formułowanie przewidywań i dawanie rekomendacji tak ogólnikowych, że pasują do prawie wszelkich możliwych sytuacji,  jest nie tylko bezużyteczne, ale oznacza również marnowanie zasobów czasowych  i finansowych zleceniodawcy i zespołu.
 Jako badacze nie uchylamy się przed formułowaniem jednoznacznych zaleceń i testowalnych prognoz. Jako projektanci rozwiązań organizacyjnych i usług konsekwentnie angażujemy się w implementacje wypracowanych pomysłów."
 - id: "bezpieczenstwo"
