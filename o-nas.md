@@ -6,8 +6,8 @@ js: zakladki
 ---
 # O nas
 
-Jako zespół funkcjonujemy na rynku badań społecznych i marketingowych od ponad  dekady.  Nasz zespół składa się z badaczy  doświadczonych  w badaniach  komercyjnych a jednocześnie utytułowanych naukowo.
+Jako zespół funkcjonujemy na rynku badań społecznych i marketingowych od ponad dekady. Posiadamy doświadczenie w realizacji projektów komercyjnych oraz odnosimy sukcesy jako naukowcy.
 
-W naszej praktyce badawczej z powodzeniem wykorzystujemy także doświadczenia z zakresu prowadzonych przez nas badań akademickich.  Przede wszystkim na bieżąco śledzimy najnowsze odkrycia oraz metody.  Realizując projekty komercyjne,   jednocześnie zachowujemy rygor właściwy metodologii naukowej.
+W naszej praktyce wykorzystujemy doświadczenia z zakresu prowadzonych przez nas badań akademickich. Śledzimy najnowsze odkrycia oraz metody. Realizując projekty komercyjne, jednocześnie zachowujemy rygor metodologii naukowej.
 
-Jako badacze społeczni specjalizujemy się w ujawnianiu ukrytych czynników sterujących zachowaniami ludzi, kształtujących ich preferencje i decyzje. Prześwietlamy również rozmaite instytucje pod kątem ich efektywności, innowacyjności oraz panującej w nich kultury organizacyjnej.
+Specjalizujemy się w ujawnianiu ukrytych czynników sterujących zachowaniami ludzi, kształtujących ich preferencje i decyzje. Prześwietlamy rozmaite instytucje pod kątem ich efektywności, innowacyjności oraz panującej w nich kultury organizacyjnej.
